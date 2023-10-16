@@ -269,7 +269,7 @@ class Whiptail:
 		:param msg: The message to display in the dialog box
 		"""
 
-		self.run("msgbox", msg)
+		self.run("msgbox", msg, extra_args=["--scrolltext"])
 
 	def textbox(self, path: PathLike) -> int:
 		"""
