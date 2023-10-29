@@ -127,7 +127,7 @@ Currently, these types of dialog boxes are implemented:
 
 Differences from the original project
 --------------
-Now, when calling msgbox(), you can specify additional options. For example:
+Now, when calling *msgbox()*, you can specify additional options by specifying them in the *extra_args* variable. For example:
 
 .. code-block:: python
 
