@@ -95,8 +95,8 @@ whiptail
 	:target: https://github.com/domdfcoding/whiptail/pulse
 	:alt: GitHub commits since tagged version
 
-.. |commits-latest| image:: https://img.shields.io/github/last-commit/domdfcoding/whiptail
-	:target: https://github.com/domdfcoding/whiptail/commit/master
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/IgrikXD/whiptail
+	:target: https://github.com/IgrikXD/whiptail/commit/master
 	:alt: GitHub last commit
 
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2022
