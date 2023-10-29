@@ -125,7 +125,7 @@ Currently, these types of dialog boxes are implemented:
 * gauge box
 * password box
 
-Differences from the `original project <https://github.com/domdfcoding/whiptail>`
+Differences from the original project
 --------------
 Now, when calling **msgbox()**, you can specify additional options by specifying them in the **extra_args** variable. For example:
 
