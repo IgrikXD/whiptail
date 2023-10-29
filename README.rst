@@ -145,7 +145,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install whiptail-dialogs
+	$ pip install git+https://github.com/IgrikXD/whiptail@master
 
 .. end installation
 
@@ -155,4 +155,4 @@ On Debian and derivatives this can be installed with:
 
 .. code-block:: bash
 
-	$ apt-get install whiptail
+	$ sudo apt install whiptail
