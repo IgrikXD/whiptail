@@ -14,16 +14,8 @@ whiptail
 	:stub-columns: 1
 	:widths: 10 90
 
-	* - Docs
-	  - |docs|
-	* - PyPI
-	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
-	* - Activity
-	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
-	* - QA
-	  - |codefactor|
-	* - Other
-	  - |license| |requires|
+	* - Info
+	  - |docs| |requires| |commits-latest|
 
 .. |docs| image:: https://img.shields.io/readthedocs/whiptail/latest?logo=read-the-docs
 	:target: https://whiptail.readthedocs.io/en/latest
@@ -33,28 +25,9 @@ whiptail
 	:target: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail/
 	:alt: Requirements Status
 
-.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/whiptail?logo=codefactor
-	:target: https://www.codefactor.io/repository/github/domdfcoding/whiptail
-	:alt: CodeFactor Grade
-
-.. |license| image:: https://img.shields.io/github/license/IgrikXD/whiptail
-	:target: https://github.com/IgrikXD/whiptail/blob/master/LICENSE
-	:alt: License
-
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/whiptail/v0.4.0
-	:target: https://github.com/domdfcoding/whiptail/pulse
-	:alt: GitHub commits since tagged version
-
 .. |commits-latest| image:: https://img.shields.io/github/last-commit/IgrikXD/whiptail
 	:target: https://github.com/IgrikXD/whiptail/commit/master
 	:alt: GitHub last commit
-
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2022
-	:alt: Maintenance
-
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/whiptail-dialogs
-	:target: https://pypi.org/project/whiptail-dialogs/
-	:alt: PyPI - Downloads
 
 .. end shields
 
