@@ -68,7 +68,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ pip install git+https://github.com/IgrikXD/whiptailwhiptail-dialogs@master
+	$ pip install git+https://github.com/IgrikXD/whiptail-dialogs@master
 
 .. end installation
 
