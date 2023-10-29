@@ -255,7 +255,7 @@ class Whiptail:
 
 		return bool(self.run("yesno", msg, extra_args=[defaultno], exit_on=[255]).returncode)
 
-	def msgbox(self, msg: str) -> None:
+	def msgbox(self, msg: str, extra_args: Sequence[str] = ()) -> None:
 		"""
 		A message box is very similar to a yes/no box.
 
@@ -269,7 +269,7 @@ class Whiptail:
 		:param msg: The message to display in the dialog box
 		"""
 
-		self.run("msgbox", msg, extra_args=["--scrolltext"])
+		self.run("msgbox", msg, extra_args=extra_args)
 
 	def textbox(self, path: PathLike) -> int:
 		"""
