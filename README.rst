@@ -125,6 +125,14 @@ Currently, these types of dialog boxes are implemented:
 * gauge box
 * password box
 
+Differences from the original project
+--------------
+Now, when calling msgbox(), you can specify additional options. For example:
+
+.. code-block:: python
+
+	w = Whiptail(title="This is the title", backtitle="This is the backtitle")
+	w.msgbox("This is a msgbox!", extra_args=["--scrolltext"])
 
 Installation
 --------------
