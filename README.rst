@@ -1,5 +1,5 @@
 ====================
-whiptail
+whiptail-dialogs
 ====================
 
 .. start short_desc
@@ -21,12 +21,12 @@ whiptail
 	:target: https://whiptail.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
-.. |requires| image:: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail/badge.svg
-	:target: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail/
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail-dialogs/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail-dialogs/
 	:alt: Requirements Status
 
-.. |commits-latest| image:: https://img.shields.io/github/last-commit/IgrikXD/whiptail
-	:target: https://github.com/IgrikXD/whiptail/commit/master
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/IgrikXD/whiptail-dialogs
+	:target: https://github.com/IgrikXD/whiptail-dialogs/commit/master
 	:alt: GitHub last commit
 
 .. end shields
@@ -68,7 +68,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ pip install git+https://github.com/IgrikXD/whiptail@master
+	$ pip install git+https://github.com/IgrikXD/whiptailwhiptail-dialogs@master
 
 .. end installation
 
