@@ -20,45 +20,19 @@ whiptail
 	:widths: 10 90
 
 	* - Docs
-	  - |docs| |docs_check|
-	* - Tests
-	  - |actions_linux| |actions_windows| |actions_macos|
+	  - |docs|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy|
+	  - |codefactor|
 	* - Other
 	  - |license| |language| |requires|
 
 .. |docs| image:: https://img.shields.io/readthedocs/whiptail/latest?logo=read-the-docs
 	:target: https://whiptail.readthedocs.io/en/latest
 	:alt: Documentation Build Status
-
-.. |docs_check| image:: https://github.com/domdfcoding/whiptail/workflows/Docs%20Check/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22Docs+Check%22
-	:alt: Docs Check Status
-
-.. |actions_linux| image:: https://github.com/domdfcoding/whiptail/workflows/Linux/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22Linux%22
-	:alt: Linux Test Status
-
-.. |actions_windows| image:: https://github.com/domdfcoding/whiptail/workflows/Windows/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22Windows%22
-	:alt: Windows Test Status
-
-.. |actions_macos| image:: https://github.com/domdfcoding/whiptail/workflows/macOS/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22macOS%22
-	:alt: macOS Test Status
-
-.. |actions_flake8| image:: https://github.com/domdfcoding/whiptail/workflows/Flake8/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22Flake8%22
-	:alt: Flake8 Status
-
-.. |actions_mypy| image:: https://github.com/domdfcoding/whiptail/workflows/mypy/badge.svg
-	:target: https://github.com/domdfcoding/whiptail/actions?query=workflow%3A%22mypy%22
-	:alt: mypy status
 
 .. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/whiptail/badge.svg
 	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/whiptail/
