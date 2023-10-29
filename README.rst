@@ -8,11 +8,6 @@ whiptail
 
 .. end short_desc
 
-.. image:: https://coveralls.io/repos/github/domdfcoding/whiptail/badge.svg?branch=master
-	:target: https://coveralls.io/github/domdfcoding/whiptail?branch=master
-	:alt: Coverage
-
-
 .. start shields
 
 .. list-table::
@@ -28,44 +23,25 @@ whiptail
 	* - QA
 	  - |codefactor|
 	* - Other
-	  - |license| |language| |requires|
+	  - |license| |requires|
 
 .. |docs| image:: https://img.shields.io/readthedocs/whiptail/latest?logo=read-the-docs
 	:target: https://whiptail.readthedocs.io/en/latest
 	:alt: Documentation Build Status
 
-.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/whiptail/badge.svg
-	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/whiptail/
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/IgrikXD/whiptail/
 	:alt: Requirements Status
 
 .. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/whiptail?logo=codefactor
 	:target: https://www.codefactor.io/repository/github/domdfcoding/whiptail
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/whiptail-dialogs
-	:target: https://pypi.org/project/whiptail-dialogs/
-	:alt: PyPI - Package Version
-
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/whiptail-dialogs?logo=python&logoColor=white
-	:target: https://pypi.org/project/whiptail-dialogs/
-	:alt: PyPI - Supported Python Versions
-
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/whiptail-dialogs
-	:target: https://pypi.org/project/whiptail-dialogs/
-	:alt: PyPI - Supported Implementations
-
-.. |wheel| image:: https://img.shields.io/pypi/wheel/whiptail-dialogs
-	:target: https://pypi.org/project/whiptail-dialogs/
-	:alt: PyPI - Wheel
-
-.. |license| image:: https://img.shields.io/github/license/domdfcoding/whiptail
-	:target: https://github.com/domdfcoding/whiptail/blob/master/LICENSE
+.. |license| image:: https://img.shields.io/github/license/IgrikXD/whiptail
+	:target: https://github.com/IgrikXD/whiptail/blob/master/LICENSE
 	:alt: License
 
-.. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/whiptail
-	:alt: GitHub top language
-
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/whiptail/v0.4.1
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/whiptail/v0.4.0
 	:target: https://github.com/domdfcoding/whiptail/pulse
 	:alt: GitHub commits since tagged version
 
