@@ -57,6 +57,8 @@ Now, when calling **msgbox()**, you can specify additional options by specifying
 	w = Whiptail(title="This is the title", backtitle="This is the backtitle")
 	w.msgbox("This is a msgbox!", extra_args=["--scrolltext"])
 
+Now, when calling **menu()** and **showlist()**, multi-line messages will be processed correctly. Previously, you would lose part of a message if it was more than two lines high.
+
 Installation
 --------------
 

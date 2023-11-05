@@ -296,8 +296,13 @@ class Whiptail:
 
 		:param msg: The message to display in the dialog box
 		"""
-
-		height_offset = 9 if msg else 7
+		DEFAULT_OFFSET = 7
+		if msg:
+			# If there is a custom message, we add 1 to the standard offset, 
+			# and 1 to each newline character
+			height_offset = DEFAULT_OFFSET + 1 + msg.count('\n')
+		else:
+			height_offset = DEFAULT_OFFSET
 
 		if self.height is None:
 			width, height = get_terminal_size()
